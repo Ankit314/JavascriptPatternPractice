@@ -1,21 +1,21 @@
 let pattern="";
 for(let i=1;i<=5;i++){
-    for(let j=1;j<5;j++){
-        pattern+=i;
+    for(let j=1;j<=5;j++){
+        pattern+=j;
     }
     pattern+="\n";
+
 }
 console.log(pattern);
-
 
 let pattern1="";
 let i=1;
 while(i<=5){
     let j=1;
     while(j<=5){
-        pattern1+=i;
+        pattern1+=j;
         j++;
-    };
+    }
     pattern1+="\n";
     i++;
 }
@@ -25,14 +25,13 @@ let pattern3="";
 let a=1;
 do{
 
-    let b=1;
+    let b=1
     do{
-        pattern3+=a;
+        pattern3+=b;
         b++;
     }while(b<=5);
     pattern3+="\n";
     a++;
 
 }while(a<=5);
-
-console.log(pattern3);
+console.log(pattern3)
