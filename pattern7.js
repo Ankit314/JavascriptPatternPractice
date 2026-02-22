@@ -38,4 +38,6 @@ do{
     m++;
 }while(m<=5);
 console.log(pattern3);
+
+
  
