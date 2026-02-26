@@ -18,3 +18,31 @@ for(let i=1;i<=5;i++){
     pattern+="\n";
 }
 console.log(pattern);
+
+
+let pattern1="";
+let num=5;
+let p;
+let q;
+let r=1;
+while(r<=5){
+    p=r;
+    q=num-r+1;
+    let j=1;
+    while(j<=5){
+        if(j%2==1){
+            pattern1+=p.toString().padStart(3," ");
+
+        }else{
+            pattern1+=q.toString().padStart(3," ");
+
+        }
+        p=p+5;
+        q=q+5;
+        j++;
+    }
+    pattern1+="\n";
+    r++;
+}
+
+console.log(pattern1);
